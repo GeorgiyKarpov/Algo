@@ -67,7 +67,7 @@ func (l *List) PrintList() {
 	fmt.Println(output)
 }
 
-func (l *List) CreateCycle(at int) { // at - index of list
+func (l *List) CreateCycle(at int) {
 	if l.Head == nil {
 		return
 	}
